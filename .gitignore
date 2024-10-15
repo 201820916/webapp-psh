@@ -1,18 +1,21 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Eclipse specific files
+ /.settings/
+ /.project
+ /.classpath
+ # Intellij specific files
+ /.idea/
+ /*.iml
+ # Maven target directory
+ /target/
+ # Logs
+ *.log
+ # Compiled class files
+ *.class
+ # Package Files
+ *.jar
+ *.war
+ *.ear
+ # OS-specific files
+ .DS_Store
+ Thumbs.db
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
